@@ -5,21 +5,21 @@ class GitPurge < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-aarch64-apple-darwin.tar.xz"
-      sha256 "f9f437fc3fc9f75acbb422a76650c84311bb38db9322d5042d8f734f576d2da8"
+      sha256 "0b28340c1bde11f9021d899fd1198b4ae4cb9e24bd69320b0589702050535618"
     end
     if Hardware::CPU.intel?
       url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-x86_64-apple-darwin.tar.xz"
-      sha256 "70f415f7b1e80d0fa2ae7af82c577ead81ba96baf77e4f2b00a4421ca1c56969"
+      sha256 "993cc92f2b794a7b90bcbbbd6a9905c9d005cf73013ba906ab5b8b306712060d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a675e47df416309d88a5c540a8ffc6d7600adf2308e26e0a9a2ffc5d4c22f8ed"
+      sha256 "cae6e6bf8572133d02075ca931bd003904f0b339c2a8e0ccdaec2b75a0ccc7b2"
     end
     if Hardware::CPU.intel?
       url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c324ad8a842daf1577ad67784f099b421e72ce28319c7445c78c1e2468f1db3d"
+      sha256 "402063621d1d60f1fbcfcee70336c1a1a3f99a1d0feb04c58dfc954575fe13ab"
     end
   end
 

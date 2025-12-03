@@ -1,25 +1,25 @@
 class GitPurge < Formula
   desc "Git extension to purge stale local branches deleted from remote."
   homepage "https://github.com/mariocampacci/git-purge"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-aarch64-apple-darwin.tar.xz"
-      sha256 "0b28340c1bde11f9021d899fd1198b4ae4cb9e24bd69320b0589702050535618"
+      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.1/git-purge-aarch64-apple-darwin.tar.xz"
+      sha256 "78f8514f9124fee03822d3768a9e467f981b192a8d4363c865e49033162b33f1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-x86_64-apple-darwin.tar.xz"
-      sha256 "993cc92f2b794a7b90bcbbbd6a9905c9d005cf73013ba906ab5b8b306712060d"
+      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.1/git-purge-x86_64-apple-darwin.tar.xz"
+      sha256 "5002c562a7db6590e2ca8ed3c4dc43b4a87e0db2608c0dd872be7c441c1cfc53"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cae6e6bf8572133d02075ca931bd003904f0b339c2a8e0ccdaec2b75a0ccc7b2"
+      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.1/git-purge-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "890ad516b6cafb6ecdbb258823e36dd17fdee4c5737bc3babaf3afbd482f12b8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.0/git-purge-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "402063621d1d60f1fbcfcee70336c1a1a3f99a1d0feb04c58dfc954575fe13ab"
+      url "https://github.com/mariocampacci/git-purge/releases/download/v0.1.1/git-purge-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "66f2d769926f3d40cdec42618997ee66e34dfbfc8ef5e6f14b413483fba445db"
     end
   end
 
